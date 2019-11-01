@@ -3,11 +3,16 @@
 // CG2028 Assignment
 // (C) CK Tham, ECE, NUS
 
-// Optimization routine written in assembly language
-// Input parameters (signed integers):
-//     xi : integer version of x
-//     a, b, c : integer coefficients of f(x)
-// Output : returns solution x (signed integer)
+/** Authors:
+ * Alex Teo Kang Jie, A0180338E
+ * Chu Jui Hung @Jefferson Chu, A0182590B
+ *  Optimization routine written in assembly language
+ *  Input parameters (signed integers):
+ *     xi : integer version of x
+ *        a, b, c: integer coefficients of f(x)
+ *        Output : returns solution x (signed integer)
+ *        iter: number of iterations
+ */
 extern int optimize(int xi, int a, int b, int c);
 
 int main(void)
@@ -21,7 +26,7 @@ int main(void)
 
 //  ARM ASM & Integer version
     printf("ARM ASM & Integer version:\n");
-    xsoli = optimize((int) x * 100, a, 100 * b, &iter);
+    xsoli = optimize((int) x * 100, a, 100 * b, &iter); //scaling of 100
     xsol = xsoli / 100.0;
     printf("xsol : %f \n\n",xsol);
     printf("Number of iterations : %d\n\n", iter);
