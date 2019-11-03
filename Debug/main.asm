@@ -117,9 +117,9 @@
   76 0006 04AF     		add	r7, sp, #16
   77              	.LCFI2:
   78              		.cfi_def_cfa 7, 80
-  20:../src/main.c ****     int a=3, b=4, c=-3, xsoli;
+  20:../src/main.c ****     int a=10, b=4, c=-3, xsoli;
   79              		.loc 1 20 0
-  80 0008 4FF00303 		mov	r3, #3
+  80 0008 4FF00A03 		mov	r3, #10
   81 000c FB62     		str	r3, [r7, #44]
   82 000e 4FF00403 		mov	r3, #4
   83 0012 BB62     		str	r3, [r7, #40]
@@ -343,19 +343,19 @@
  266              	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:19     .rodata:00000000 $d
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:20     .rodata:00000000 .LC0
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:24     .rodata:00000038 .LC1
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:27     .rodata:0000003c .LC2
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:34     .rodata:00000058 .LC3
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:38     .rodata:00000068 .LC4
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:41     .rodata:00000084 .LC5
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:47     .rodata:000000a4 .LC6
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:51     .text.main:00000000 $t
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:56     .text.main:00000000 main
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:263    .bss:00000000 loop.3827
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:257    .text.main:000001b0 $d
-C:\Users\jeffe\AppData\Local\Temp\cc9iw25d.s:262    .bss:00000000 $d
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:19     .rodata:00000000 $d
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:20     .rodata:00000000 .LC0
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:24     .rodata:00000038 .LC1
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:27     .rodata:0000003c .LC2
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:34     .rodata:00000058 .LC3
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:38     .rodata:00000068 .LC4
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:41     .rodata:00000084 .LC5
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:47     .rodata:000000a4 .LC6
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:51     .text.main:00000000 $t
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:56     .text.main:00000000 main
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:263    .bss:00000000 loop.3827
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:257    .text.main:000001b0 $d
+C:\Users\jeffe\AppData\Local\Temp\cc7wo8oO.s:262    .bss:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

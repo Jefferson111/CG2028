@@ -3,7 +3,8 @@
 // CG2028 Assignment
 // (C) CK Tham, ECE, NUS
 
-/** Authors:
+/**
+ * Authors:
  * Alex Teo Kang Jie, A0180338E
  * Chu Jui Hung @Jefferson Chu, A0182590B
  *  Optimization routine written in assembly language

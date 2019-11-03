@@ -1,3 +1,7 @@
+/**
+ * Alex Teo Kang Jie, A0180338E
+ * Chu Jui Hung @Jefferson Chu, A0182590B
+ */
  	.syntax unified
  	.cpu cortex-m3
  	.thumb
@@ -20,9 +24,9 @@ loop:
  	SDIV R7, R5 @Calculates DELTA = Fp / lambda
  	SUB R0, R7 @Update value of x                                   0x00400007
  	TEQ R0, R4 @Test equality of old value and new value of x       0x01300004
- 	BNE loop @Loop condition                                        0x1800000C
+ 	BNE loop @Loop condition                                        0x1800001C
 end:
- 	STR R6, [R3, #0] @Store the number of iterations                0x05837000
+ 	STR R6, [R3, #0] @Store the number of iterations                0x05836000
  	POP {R4-R7}
  	BX	LR
 
