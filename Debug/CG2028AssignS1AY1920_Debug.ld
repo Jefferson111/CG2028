@@ -4,7 +4,7 @@
  * (c) NXP Semiconductors 2013-2019
  * Generated linker script file for LPC1769
  * Created from generic_c.ld (LPCXpresso v6.1 (4 [Build 194] [2014-01-15] ))
- * By LPCXpresso v6.1.4 [Build 194] [2014-01-15]  on Fri Nov 01 15:47:47 GMT+08:00 2019
+ * By LPCXpresso v6.1.4 [Build 194] [2014-01-15]  on Tue Nov 05 10:41:06 GMT+08:00 2019
  */
 
 
